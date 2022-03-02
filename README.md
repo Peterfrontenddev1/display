@@ -18,7 +18,20 @@ display:  inline-block;
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Color Markers</title>
-  
+  <style>
+    .cap {
+  width: 60px;
+  height: 25px;
+}
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.cap, . sleeve{
+display:  inline-block;
+}
+    </style>
   </head>
   <body>
     <h1>CSS Color Markers</h1>
